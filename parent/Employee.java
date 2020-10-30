@@ -36,14 +36,6 @@ public abstract class Employee {
 		this.ranks = ranks;
 	}
 	
-		//конструкторы
-	public Employee(String nameEmployee, int ageEmployee, int salaryEmloyee, Rank ranks) {
-		this.nameEmployee = nameEmployee;
-		this.ageEmployee = ageEmployee;
-		this.salaryEmloyee = salaryEmloyee;
-		this.ranks = ranks;
-	}
-	public Employee() {}
 	
 		//методы
 	public void print(String nameEmployee, int ageEmployee, int salaryEmloyee) {
